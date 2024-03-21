@@ -18,15 +18,15 @@ To get started with this project, follow these steps:
 
 ## Usage
 
-1. Place the raw ticket files (images or PDFs) in the `tickets_raw` directory.
-2. Run the `ticket_processor.py` script to extract text from the ticket files and store the data in the database.
-3. The processed data will be stored in the `database` directory.
-4. Run the `report_generator.py` script to generate feedback reports based on the processed data.
-5. The generated reports will be stored in the `first_iteration_reports` and `second_iteration_reports` directories.
+1. The raw ticket files (images or PDFs) are in the `tickets_raw` directory.
+2. The `OCRScript.py` was used to extract text from the ticket files.
+3. The processed data is already stored in the `database` directory which contains a dump of the mysql database.
+5. The generated reports are stored in the `first_iteration_reports` and `second_iteration_reports` directories.
+6. For further information about the process, check the `process_and_references.docx`
 
 ## Project Structure
 
-- `database/`: Directory for storing the processed ticket data.
+- `database/`: Directory containing a dump of the mysql database with the processed ticket data.
 - `first_iteration_reports/`: Directory for storing the initial feedback reports.
 - `second_iteration_reports/`: Directory for storing the second iteration of feedback reports.
 - `tickets_raw/`: Directory for storing the raw ticket files (images or PDFs).
