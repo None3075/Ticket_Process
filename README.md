@@ -14,7 +14,7 @@ This repository contains the code and resources for processing support tickets, 
 To get started with this project, follow these steps:
 
 1. Clone the repository to your local machine.
-2. The instrucctions to follow the process are inside `process_and_references.docx`.
+2. The instrucctions to follow the process are inside `process_and_references.pdf`.
 
 ## Usage
 
